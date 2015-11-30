@@ -746,7 +746,7 @@ class CratePlatform extends AbstractPlatform
     /**
      * {@inheritDoc}
      */
-    public function getGuidTypeDeclarationSQL(array $field) 
+    public function getGuidTypeDeclarationSQL(array $field)
     {
         throw DBALException::notSupported(__METHOD__);
     }
